@@ -24,7 +24,7 @@ https://cran.r-project.org/web/packages/academictwitteR/index.html
 # For large amounts of data it is recommended that data_path and bind_tweets = FALSE options are used to mitigate potential data loss in case query is interrupted
 # Users can then use bind_tweet_jsons() to bundle the jsons into a data.frame object!
 
-bearer_token <- "AAAAAAAAAAAAAAAAAAAAAEs2PwEAAAAAGMNR61qWgzfXRkwd9SEFaOgQIJs%3DJ15boKPRjj3MT6fQTZeGiPP2YbMMwVgkoyNp0NitJnTWqd4RdP" # Insert bearer token
+bearer_token <- # Insert bearer token - it is confidential and cannot be shared publicly
 
 
 # First Try!
