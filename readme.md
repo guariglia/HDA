@@ -12,7 +12,7 @@ This was an individual project by, CID: 01906946
 
 ## Key Files 📂
 
-The following data files are used in this analysis, but are not included in this repo:
+The following data files are used in this analysis:
   | File name           			| Description                           	|
   |---------------------			|---------------------------------------	|
   | 000_timestamps_original.csv 		| The original conversation timestamps dataset 	| 
@@ -20,6 +20,7 @@ The following data files are used in this analysis, but are not included in this
   | covid_cases_data_2021-Jun-26.csv 		| UK daily COVID cases data 			| 
   | covid_deaths_data_2021-Jun-26.csv 		| UK daily COVID deaths data 			| 
   | 030 full data.rds 				| A prepared full dataset used in analyses 	| 
+ These are not included in this repo and must be located before running the code.
   
  ## Key scripts 📜
 
