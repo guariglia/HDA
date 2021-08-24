@@ -77,8 +77,11 @@ The following scripts were used for Short term forecasting:
 The folder structure of the project directory should look like this.
 ```bash
 .
-├── analysis    # outputs and plots
-└── data        # data folder that should be created explicitly by users
+├── data            # data
+└── scripts         # data preparation and observational analysis scripts
+└── results_scripts # scripts to produce forecasting results
+└── results_data    # data produced by results scripts
+└── results_output  # output plots from results scripts
 ```
 
 ### Prerequisites 💻
