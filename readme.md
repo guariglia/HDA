@@ -3,12 +3,20 @@
 ## About this project 📽️
 This project is prepared for the MSc Health Data Analytics Research Project. This study predicts hourly text volume data on a digital mental health service using calendar and external predictors.
 
-Full methods and description of data collection are included in the dissertation.
+The repository provides access and brief explanation of the code used in this project. The project was performed on Imperial's HPC and used R version 3.6.0 and Python 3.8.8. Full methods and description of data collection are included in the dissertation.
 
-The project was performed on Imperial's HPC and used R version 3.6.0 and Python 3.8.8.
+Below, details are provided of:
+* Project Team
+* Key Files
+* Key Scripts
+* Getting Started
+* HPC Folder Structure
+* Package Prerequisites
+* Installation
+* Preparation and running the pipeline
 
 ## Project team 🧑‍🤝‍🧑
-This was an individual project by, CID: 01906946
+This was an individual project by CID 01906946
 
 ## Key Files 📂
 
@@ -85,9 +93,9 @@ The folder structure of the project directory should look like this.
 └── results_output  # output plots from results scripts
 ```
 
-### Prerequisites 💻
+### Package Prerequisites 💻
 
-Required pacaged can be installed using `CondaPackages.yml` provided.
+Required packages can be installed using `CondaPackages.yml` provided.
 
 ### Installation 🖱️
 
@@ -108,6 +116,6 @@ Clone the repo.
    
 2. Create "data" folder under the directory.
 3. Locate the "Key Files" data and save in the data folder.
-6. Run the necessary commands within the scripts above to reproduce the analysis, communicating with the author if required.
+6. Run the necessary commands within the scripts above to reproduce the analysis, communicating with the author for clarification if required.
 
 &nbsp;
