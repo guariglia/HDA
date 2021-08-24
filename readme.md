@@ -34,7 +34,7 @@ The following data files are used in this analysis:
 
 Analysis included the use of both R scripts and Python Jupyter scripts.
 
-The following scripts were for data preparation:
+**Data Preparation.** The following scripts were for data preparation:
 | script                            | Description                                                                                                                                                                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 003 Twitter API Import.R | Import Twitter Data |
@@ -45,12 +45,12 @@ The following scripts were for data preparation:
 | 030 Observational Analyses.R | Final Tweaks to Dataset before Analysis |
 These scripts produce the "030 full data.rds" file above.
 
-The following scripts were used for observational analysis:
+**Observational Analysis.** The following scripts were used for observational analysis:
 | script                            | Description                                                                                                                                                                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 030 Observational Analyses.R | Observational Analyses |
 
-The following scripts were used for Long term forecasting:
+**Long Term Forecasting.** The following scripts were used for long term forecasting:
 | script                            | Description                                                                                                                                                                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01 Train-Test | Construction of Train-Test sets for Long and Short term forecasting (incl both ex-post and ex-ante) |
@@ -64,7 +64,7 @@ The following scripts were used for Long term forecasting:
 | 11a Long SVR CrossVal Curves.R | SVR Model Development Plots Generated |
 | 12 Long Preds Output Plot.R | Results and Plots Produced for All Predictor Sets |
 
-The following scripts were used for Short term forecasting:
+**Short Term Forecasting.** The following scripts were used for short term forecasting:
 | script                            | Description                                                                                                                                                                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01 Train-Test | Construction of Train-Test sets for Long and Short term forecasting (incl both ex-post and ex-ante) |
