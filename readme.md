@@ -107,15 +107,10 @@ Clone the repo.
 
 ### Preparation and running the pipeline 🏃‍♀️️
 
-1. Install R libraries listed above 👆 in your Conda on the HPC. 
-    * To navigate to Conda R, run the following code:
-   ```sh
-   module load anaconda3/personal
-   R
-   ``` 
-   
-2. Create "data" folder under the directory.
-3. Locate the "Key Files" data and save in the data folder.
-6. Run the necessary commands within the scripts above to reproduce the analysis, communicating with the author for clarification if required.
+1. Install required packages above 👆 in your Conda on the HPC. 
+2. Create "data", "results_data", and "results_output" folders under the directory.
+3. Locate the "Key Files" data and save in the "data" folder.
+4. Adjust the directory names in the scripts to reflect your local folder structure.
+5. Run the necessary commands within the scripts above to reproduce the analysis, communicating with the author for clarification if required.
 
 &nbsp;
