@@ -1,0 +1,49 @@
+Loading anaconda3/personal
+  Loading requirement: fix_unwritable_tmp fix_setxattr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following object is masked from ‘package:base’:
+
+    date
+
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+
+Attaching package: ‘tsibble’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, interval, new_interval, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, union
+
+Loading required package: fabletools
+
+Attaching package: ‘fabletools’
+
+The following object is masked from ‘package:Metrics’:
+
+    accuracy
+
+Loading required package: timeDate
+Loading required package: timeSeries
+Loading required package: fBasics
+Error: unexpected ')' in "rm(predictions)%>% pivot_longer(everything(), names_to = "Model name", values_to = "Orders"))"
+Execution halted
